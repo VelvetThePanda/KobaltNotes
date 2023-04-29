@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"type":"group","id":"ca146bcd8392b511","x":120,"y":520,"width":1720,"height":1100,"color":"4","label":"Kobalt Plugins"},
+		{"type":"group","id":"58b7b8a5d28a7db4","x":-1360,"y":-760,"width":760,"height":800,"color":"5","label":"Kobalt Core"},
+		{"type":"group","id":"a3a92025f6fd038d","x":-520,"y":-280,"width":320,"height":320,"color":"#49b67e","label":"Kobalt"},
+		{"type":"group","id":"1f732efb541019d9","x":120,"y":-280,"width":320,"height":320,"color":"1","label":"Services/Infra"},
+		{"type":"group","id":"e003757d5c4bc65d","x":120,"y":140,"width":320,"height":280,"color":"6","label":"External services"},
+		{"type":"text","text":"<center>Kobalt Core</center>","id":"537c4c625a8cb098","x":-485,"y":-180,"width":250,"height":50,"color":"5"},
+		{"type":"text","text":"<center>Kobalt Plugins<center>","id":"b2fbe576f4a34c69","x":-485,"y":-100,"width":250,"height":50,"color":"4"},
+		{"type":"text","text":"<center>User-Created Plugins</center>","id":"1a13a2763229f273","x":-485,"y":-20,"width":250,"height":50,"color":"2"},
+		{"type":"text","text":"<center>Remora.Discord</center>","id":"f7b7e540c79175e6","x":-485,"y":-260,"width":250,"height":50,"color":"#9790fe"},
+		{"type":"text","text":"<center><strong>Redis</strong></center>","id":"1a4d8336aeab73dd","x":160,"y":-260,"width":250,"height":50,"color":"#d82c20"},
+		{"type":"text","text":"<center><strong>Postgres</strong></center>","id":"363364a2253a4c04","x":160,"y":-180,"width":250,"height":50,"color":"#336791"},
+		{"type":"text","text":"<center><strong>RabbitMQ</strong></center>","id":"3029eb6d1456ee43","x":160,"y":-100,"width":250,"height":50,"color":"#ff6501"},
+		{"type":"text","text":"<center><strong>Prometheus</strong></center>","id":"d1648cc8505160a6","x":160,"y":-20,"width":250,"height":50,"color":"#f4581e"},
+		{"type":"text","text":"<center><strong>Discord</strong></center>","id":"5cd8905b1744e6b8","x":160,"y":180,"width":250,"height":50,"color":"#738adb"},
+		{"type":"text","text":"<center><strong>HyperFish</strong></center>","id":"1a93081c35aca552","x":160,"y":260,"width":250,"height":50,"color":"#091a34"},
+		{"type":"text","text":"<center><strong>Artist Auth API</strong></center>","id":"f88051b3e6713719","x":160,"y":340,"width":250,"height":50,"color":"#9171da"},
+		{"id":"97a441bdda815004","x":-940,"y":110,"width":737,"height":570,"type":"file","file":"Kobalt Client Plugins.md"}
+	],
+	"edges":[
+		{"id":"5c509639dd8d1ba5","fromNode":"1a13a2763229f273","fromSide":"top","toNode":"b2fbe576f4a34c69","toSide":"bottom"},
+		{"id":"eab3227d02ee9224","fromNode":"b2fbe576f4a34c69","fromSide":"top","toNode":"537c4c625a8cb098","toSide":"bottom"},
+		{"id":"e92923df43308481","fromNode":"537c4c625a8cb098","fromSide":"top","toNode":"f7b7e540c79175e6","toSide":"bottom"},
+		{"id":"d5146428b211d557","fromNode":"537c4c625a8cb098","fromSide":"left","toNode":"58b7b8a5d28a7db4","toSide":"right","color":"5"},
+		{"id":"70915de43f59795c","fromNode":"537c4c625a8cb098","fromSide":"right","toNode":"363364a2253a4c04","toSide":"left","color":"5"},
+		{"id":"d55dafda48ada551","fromNode":"537c4c625a8cb098","fromSide":"right","toNode":"1a4d8336aeab73dd","toSide":"left","color":"5"},
+		{"id":"9af2559b4aee8c51","fromNode":"537c4c625a8cb098","fromSide":"right","toNode":"d1648cc8505160a6","toSide":"left","color":"5"},
+		{"id":"f76f4884069b56ed","fromNode":"f7b7e540c79175e6","fromSide":"right","toNode":"1a4d8336aeab73dd","toSide":"left","fromEnd":"arrow","color":"6"},
+		{"id":"4a22cc65006910ec","fromNode":"b2fbe576f4a34c69","fromSide":"right","toNode":"1a4d8336aeab73dd","toSide":"left","color":"4"},
+		{"id":"cec2029122bfd027","fromNode":"b2fbe576f4a34c69","fromSide":"right","toNode":"363364a2253a4c04","toSide":"left","color":"4"},
+		{"id":"00b1cbd93bf1e01e","fromNode":"b2fbe576f4a34c69","fromSide":"right","toNode":"3029eb6d1456ee43","toSide":"left","color":"4"},
+		{"id":"9181c0725ebd1ed9","fromNode":"b2fbe576f4a34c69","fromSide":"right","toNode":"ca146bcd8392b511","toSide":"left","color":"4"},
+		{"id":"4d11cc97d0bdd8da","fromNode":"f7b7e540c79175e6","fromSide":"right","toNode":"5cd8905b1744e6b8","toSide":"left","color":"6"},
+		{"id":"ae272ba4a252b6a1","fromNode":"b2fbe576f4a34c69","fromSide":"right","toNode":"1a93081c35aca552","toSide":"left","color":"4"},
+		{"id":"749561f974ea14e7","fromNode":"b2fbe576f4a34c69","fromSide":"right","toNode":"f88051b3e6713719","toSide":"left","color":"4"},
+		{"id":"bfb677059b10798b","fromNode":"1a13a2763229f273","fromSide":"bottom","toNode":"97a441bdda815004","toSide":"top","color":"2"}
+	]
+}
