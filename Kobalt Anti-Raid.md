@@ -60,7 +60,4 @@ Effectively, when an invite is made, Kobalt keeps track of *when* the invite was
 
 User joins ➜ Creates invite ➜ Another user joins ➜ Both user's threat scores increase.
 
-This is the "invite check" of this graph:
-![[4Kjtp.png]]
-
-The Acc[ount] age check is the aforementioned check about the user's minimum age. Simply, if the user's account age is too new (say, made within the last two weeks)
+This is the "invite check" of the graph. The Acc[ount] age check is the aforementioned check about the user's minimum age. Simply, if the user's account age is too new (say, made within the last two weeks)
